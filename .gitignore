@@ -1,0 +1,87 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Компилированные классы
+*.class
+
+# Пакеты и артефакты сборки
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Директории сборки
+target/
+build/
+out/
+dist/
+
+# IDE и редакторы
+.idea/           # IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.vscode/         # VS Code
+.settings/      # Eclipse
+.classpath      # Eclipse
+.project       # Eclipse
+.factorypath    # Eclipse
+
+# Локальные настройки Maven/Gradle
+.mvn/
+.gradle/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Файлы ОС
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Конфигурационные файлы с секретами
+*.properties     # если там пароли/ключи
+*.env
+config.json    # если содержит секреты
+
+# Тестовые данные
+test-output/
