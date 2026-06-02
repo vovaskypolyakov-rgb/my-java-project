@@ -34,6 +34,7 @@ public class SickLeaveTest {
         options.addPreference("pdfjs.disabled", true);
 
         driver = new FirefoxDriver(options);
+
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
