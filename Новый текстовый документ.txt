@@ -1,0 +1,6 @@
+git --version
+
+git config --global user.name "vovaskypolyakov-rgb"
+git config --global user.email "vova.sky.polyakov@gmail.com"
+
+git remote add origin https://github.com/vovaskypolyakov-rgb/my-java-project.git
